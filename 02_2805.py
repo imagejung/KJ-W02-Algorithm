@@ -8,6 +8,7 @@ sum_a = sum(a)
 result = 0
 pl, pr = 1, max(a)
 
+# 이분 탐색으로 나무 자르기
 while pl <= pr:
     pc = (pl + pr) // 2
 
