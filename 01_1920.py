@@ -8,6 +8,7 @@ b = list(map(int, sys.stdin.readline().split()))
 
 a.sort()
 
+# 이분 탐색 로직
 for i in range(m):
     pl, pr = 0, n-1
 
